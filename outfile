@@ -1,0 +1,18 @@
+total 64
+drwxr-xr-x 3 andriamr 2024_antananarivo  4096 Jul 17 18:22 LIBFT
+-rw-r--r-- 1 andriamr 2024_antananarivo  1526 Jul 17 11:55 Makefile
+-rw-r--r-- 1 andriamr 2024_antananarivo  1392 Jul 17 14:04 acces_utils.c
+-rw-r--r-- 1 andriamr 2024_antananarivo   973 Jul 17 11:59 cmd_exe.c
+-rwxrwxrwx 1 andriamr 2024_antananarivo  1029 Jul 17 16:43 file2
+-rw-r--r-- 1 andriamr 2024_antananarivo  1105 Jul 17 11:58 free.c
+drwxr-xr-x 2 andriamr 2024_antananarivo   180 Jul 17 18:22 ft_printf
+-rw-r--r-- 1 andriamr 2024_antananarivo  1817 Jul 17 16:44 main.c
+-rwxrwxrwx 1 andriamr 2024_antananarivo  1096 Jul 17 18:24 outfile
+-rwxr-xr-x 1 andriamr 2024_antananarivo 22296 Jul 17 18:21 pipex
+-rw-r--r-- 1 andriamr 2024_antananarivo  1619 Jul 17 16:35 pipex.h
+-rw-r--r-- 1 andriamr 2024_antananarivo  2167 Jul 17 11:53 take_path.c
+e
+-rwxr-xr-x 1 andriamr 2024_antananarivo 22296 Jul 17 18:21 pipex
+-rw-r--r-- 1 andriamr 2024_antananarivo  1619 Jul 17 16:35 pipex.h
+-rw-r--r-- 1 andriamr 2024_antananarivo  2167 Jul 17 11:53 take_path.c
+-rw-r--r-- 1 andriamr 2024_antananarivo  3080 Jul 17 16:37 take_path.o
