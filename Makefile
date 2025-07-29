@@ -6,17 +6,17 @@
 #    By: andriamr <andriamr@student.42antananari    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/14 16:43:03 by andriamr          #+#    #+#              #
-#    Updated: 2025/07/17 11:55:18 by andriamr         ###   ########.fr        #
+#    Updated: 2025/07/28 08:56:06 by andriamr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC1 = 	LIBFT/libft.a \
 			ft_printf/ft_printf.a \
 
-SRC =		take_path.c \
-		acces_utils.c \
-		free.c \
-		main.c \
+SRC =	main.c \
+		take_path.c \
+		acces.c \
+		
 		
 CC = cc
 
@@ -42,7 +42,7 @@ all : $(NAME)
 $(NAME) : $(OBJ)
 	$(MAKELIB)
 	$(MAKEPRINTF)
-	$(CC) $(FLAG) $(OBJ) $(PRINTF) $(LIBFT) -o $(NAME)
+	$(CC) -g $(FLAG) $(OBJ) $(PRINTF) $(LIBFT) -o $(NAME)
 
 clean :
 	$(MAKEPRINTF) clean
@@ -51,7 +51,7 @@ clean :
 
 fclean : clean
 	$(MAKELIB) fclean
-	$(MAKELIB) fclean
+	$(MAKEPRINTF) fclean
 	rm -f $(NAME)
 
 re : fclean all
